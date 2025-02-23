@@ -1,8 +1,16 @@
-# React + Vite
+# React CRA to Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is to migrate react app from CRA to vite which i did choose my old react
 
-Currently, two official plugins are available:
+Currently, CRA is deprecated and should start moving to vite:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Steps i followed
+- Create new project folder using `npm create vite@latest`
+- Choose react and js + SWC for fast load
+- Replace `index.html` content from vite with your app. Need to look up and replace scripts, icons etc.,
+- Install pending dependencies and correct errors
+- And there you good to go
+
+# Note
+
+It is much faster than old and with SWC
